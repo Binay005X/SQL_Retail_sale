@@ -66,9 +66,9 @@ where
 	cogs is null
 	or 
 	total_sale is null;
+```
  
-
-
+ ```sql
 delete from retail_sales 
 where 
 	transactions_id is null
