@@ -35,7 +35,7 @@ CREATE TABLE retail_sales
 
 - **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
 
-- ```sql
+ ```sql
 -- Handling missing values --
 
 -- checking null values --
