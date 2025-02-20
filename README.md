@@ -1,5 +1,9 @@
 # SQL_Retail_sale
 
+- **Project Overview**: Conducted a comprehensive retail sales analysis using SQL to derive actionable insights for business optimization. The project involved database setup, data cleaning, exploratory data analysis, and addressing key business questions.
+
+- **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
+
 # Findings
 
 - **Sales Performance**: Analyzed daily sales trends, identifying peak sales periods and contributing factors. For example, the best-selling month in 2022 was July with an average sale of approximately 541.34, and in 2023, it was February with an average sale of approximately 535.53.
