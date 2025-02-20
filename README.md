@@ -95,7 +95,6 @@ where
 
 
 SELECT COUNT(*) FROM retail_sales;
-
 ```
 
 # Findings
