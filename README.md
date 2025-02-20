@@ -14,6 +14,8 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 **Database Creation**: The project starts by creating a database named sql_retail_p2.
 
+**Table Creation**: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+
 ```sql
 CREATE TABLE retail_sales
 (
@@ -31,10 +33,70 @@ CREATE TABLE retail_sales
 );
 ```
 
-**Table Creation**: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
-
-
 - **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
+
+- ```sql
+-- Handling missing values --
+
+-- checking null values --
+
+select * from retail_sales 
+where transactions_id is null;
+
+select * from retail_sales 
+where 
+	transactions_id is null
+	or
+	sale_date is null
+	or 
+	sale_time is null
+	or
+	customer_id is null
+	or 
+	gender is null
+	or 
+	age is null
+	or 
+	category is null
+	or 
+	quantity is null
+	or 
+	price_per_unit is null
+	or 
+	cogs is null
+	or 
+	total_sale is null;
+ 
+
+
+delete from retail_sales 
+where 
+	transactions_id is null
+	or
+	sale_date is null
+	or 
+	sale_time is null
+	or
+	customer_id is null
+	or 
+	gender is null
+	or 
+	age is null
+	or 
+	category is null
+	or 
+	quantity is null
+	or 
+	price_per_unit is null
+	or 
+	cogs is null
+	or 
+	total_sale is null;
+
+
+SELECT COUNT(*) FROM retail_sales;
+
+```
 
 # Findings
 
