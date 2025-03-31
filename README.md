@@ -35,7 +35,42 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 ```
 
-- **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
+- **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability
+
+```sql
+
+  -- Handling missing values --
+  
+  -- checking null values --
+  
+    select * from retail_sales 
+    where transactions_id is null;
+    
+    select * from retail_sales 
+    where 
+    	transactions_id is null
+    	or
+    	sale_date is null
+    	or 
+    	sale_time is null
+    	or
+    	customer_id is null
+    	or 
+    	gender is null
+    	or 
+    	age is null
+    	or 
+    	category is null
+    	or 
+    	quantity is null
+    	or 
+    	price_per_unit is null
+    	or 
+    	cogs is null
+    	or 
+    	total_sale is null;
+
+```
 
 # Findings
 
