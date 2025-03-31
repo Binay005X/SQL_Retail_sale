@@ -1,7 +1,7 @@
 # SQL_Retail_sale
 
 - **Project Overview**: Conducted a comprehensive retail sales analysis using SQL to derive actionable insights for business optimization. The project involved database setup, data cleaning, exploratory data analysis, and addressing key business questions.
-- 
+  
 # Objectives
 Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
 Data Cleaning: Identify and remove any records with missing or null values.
@@ -15,6 +15,23 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 **Database Creation**: The project starts by creating a database named sql_retail_p2.
 
 **Table Creation**: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+
+```sql
+
+  CREATE TABLE retail_sales
+  (
+      transactions_id INT PRIMARY KEY,
+      sale_date DATE,	
+      sale_time TIME,
+      customer_id INT,	
+      gender VARCHAR(10),
+      age INT,
+      category VARCHAR(35),
+      quantity INT,
+      price_per_unit FLOAT,	
+      cogs FLOAT,
+      total_sale FLOAT
+  );
 
 - **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
 
