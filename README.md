@@ -33,6 +33,8 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
       total_sale FLOAT
   );
 
+```sql
+
 - **Data Cleaning**: Identified and removed 13 rows with missing values to ensure data accuracy and reliability.
 
 # Findings
