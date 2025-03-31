@@ -72,6 +72,36 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 ```
 
+```sql
+
+--- Deleting null values
+
+  delete from retail_sales 
+  where 
+  	transactions_id is null
+  	or
+  	sale_date is null
+  	or 
+  	sale_time is null
+  	or
+  	customer_id is null
+  	or 
+  	gender is null
+  	or 
+  	age is null
+  	or 
+  	category is null
+  	or 
+  	quantity is null
+  	or 
+  	price_per_unit is null
+  	or 
+  	cogs is null
+  	or 
+  	total_sale is null;
+
+```
+
 # Findings
 
 - **Sales Performance**: Analyzed daily sales trends, identifying peak sales periods and contributing factors. For example, the best-selling month in 2022 was July with an average sale of approximately 541.34, and in 2023, it was February with an average sale of approximately 535.53.
