@@ -104,6 +104,31 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 # Data Analysis and Findings
 
+## Data Exploration
+
+## Q1. How many sales we have ?
+
+```sql
+
+select count(*) as total_sale from retail_sales;
+
+```
+
+## Q2. How many customers do we have ?
+
+```sql
+
+select count(distinct customer_id) as total_sale from retail_sales;
+
+```
+
+## Q3. How many unique category we have ?
+
+```sql
+
+select distinct category from retail_sales;
+
+```
 
 
 # Findings
