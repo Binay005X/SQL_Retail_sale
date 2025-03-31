@@ -74,7 +74,7 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 ```sql
 
---- Deleting null values
+-- Deleting null values --
 
   delete from retail_sales 
   where 
@@ -101,6 +101,10 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
   	total_sale is null;
 
 ```
+
+# Data Analysis and Findings
+
+
 
 # Findings
 
