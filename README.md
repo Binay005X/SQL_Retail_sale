@@ -102,9 +102,8 @@ Business Analysis: Use SQL to answer specific business questions and derive insi
 
 ```
 
-# Data Analysis and Findings
 
-## Data Exploration
+# Data Exploration
 
 ## Q1. How many sales we have ?
 
@@ -130,9 +129,9 @@ select distinct category from retail_sales;
 
 ```
 
-## Data Analysis and Business key problem answers 
+# Data Analysis and Business key problem answers 
 
-### Q1. How can we track daily sales performance to understand revenue trends on a specific date 11 November 2022 ?
+## Q1. How can we track daily sales performance to understand revenue trends on a specific date 11 November 2022 ?
 
 ```sql
 
@@ -141,7 +140,7 @@ where sale_date = '2022-11-05';
 
 ```
 
-### Q2. How can we identify high-performing product categories, specifically for clothing, to optimize inventory for the month of November 2022 ?
+## Q2. How can we identify high-performing product categories, specifically for clothing, to optimize inventory for the month of November 2022 ?
 
 ```sql
 
