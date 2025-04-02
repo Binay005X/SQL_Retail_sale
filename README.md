@@ -130,7 +130,7 @@ select distinct category from retail_sales;
 
 ```
 
-# Data Analysis and Business key problem answers 
+## Data Analysis and Business key problem answers 
 
 ## Q1. How can we track daily sales performance to understand revenue trends on a specific date 11 November 2022 ?
 
