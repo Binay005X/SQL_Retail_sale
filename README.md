@@ -1,6 +1,6 @@
 # SQL_Retail_sale
 
-- **Project Overview**: Conducted a comprehensive retail sales analysis using SQL to derive actionable insights for business optimization. The project involved database setup, data cleaning, exploratory data analysis, and addressing key business questions.
+**Project Overview**: Conducted a comprehensive retail sales analysis using SQL to derive actionable insights for business optimization. The project involved database setup, data cleaning, exploratory data analysis, and addressing key business questions.
   
 # Objectives
 Set up a retail sales database: Create and populate a retail sales database with the provided sales data.
